@@ -1,0 +1,53 @@
+{
+  "TranslationProperties": {
+    "Name": "Arcade machine",
+    "Description": "Play a game on it!"
+  },
+  "Id": "ArcadeMachine",
+  "MaxStack": 1,
+  "Categories": [
+    "Items.ArcadeMachine"
+  ],
+  "Quality": "Legendary",
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "ArcadeMachine"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#aeae8c",
+    "BlockSoundSetId": "Stone",
+    "BlockBreakingDecalId": "Breaking_Decals_Rock",
+    "CustomModel": "Items/ArcadeMachine/ArcadeMachine.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/ArcadeMachine/ArcadeMachine_Texture.png"
+      }
+    ],
+    "Interactions": {
+      "Use": "ArcadeMachineInteraction"
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/ArcadeMachine.png",
+  "IconProperties": {
+    "Scale": 0.4,
+    "Rotation": [
+      0,
+      243,
+      3
+    ],
+    "Translation": [
+      -3,
+      -34
+    ]
+  },
+  "Texture": "Items/ArcadeMachine/ArcadeMachine_Texture.png"
+}

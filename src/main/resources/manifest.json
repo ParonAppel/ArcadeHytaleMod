@@ -1,0 +1,27 @@
+{
+    "Group": "ParonAppel",
+    "Name": "Arcade",
+    "Version": "1.0.0",
+    "Description": "A test arcade",
+    "Authors": [
+        {
+            "Name": "ParonAppel",
+            "Url": "https://github.com/ParonAppel"
+        },
+        {
+            "Name": "Andr\u00e9",
+            "Url": "https://hideout.no/"
+        }
+    ],
+    "Website": "",
+    "ServerVersion": "*",
+    "Dependencies": {
+        
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Main": "io.github.paronappel.arcade.Arcade"
+}
